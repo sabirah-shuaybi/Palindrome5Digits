@@ -1,6 +1,6 @@
 # Palindrome5Digits
 
- ## Palindrome5Digits presents three distinct algorithms that ultimately compute the sum of all 5-digit palindromes.
+ Palindrome5Digits presents three distinct algorithms that ultimately compute the sum of all 5-digit palindromes.
   
   (Palindrome: a sequence of letters, characters or numbers that reads the same backwards as forwards)
 
@@ -21,4 +21,4 @@
      digits will be the reverse of the first 2 digits. The inner loop then loops through all possible middle digits and
      constructs the palindrome. Lastly, it sums all of the palindrome values. 
 
-(*Note: Algorithm # 3 is very similar to Algorithm # 2 since both require a construction of the palindromes rather than a massive/brute search for them. Nonetheless, Algorithm # 3 is a more refined technique.)
+(*Note: Algorithm # 3 is very similar to Algorithm # 2 since both require a construction of the palindromes rather than a massive/brute search for them. Nonetheless, Algorithm # 3 is a more refined technique.*)

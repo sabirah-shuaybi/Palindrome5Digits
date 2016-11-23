@@ -35,7 +35,7 @@ function palinBruteForceSearch() {
  * and the second and second last digit will be the same, it is not necessary to
  * search the entire range of numbers.
 */
-function palinOptimizedSearch() {
+function palinOptimized() {
   var sum = 0;
   for (var i = 1; i < 10; i++) {
     for (var j = 0; j < 10; j++) {
@@ -72,5 +72,5 @@ function palinConstruct() {
 
 //Print results of each technique on console
 console.log('Sum using brute force search = ' + palinBruteForceSearch());
-console.log('Sum using optimized search = ' + palinOptimizedSearch());
+console.log('Sum using optimized search = ' + palinOptimized());
 console.log('Sum using palindromw construct = ' + palinConstruct());

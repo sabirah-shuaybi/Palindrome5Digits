@@ -15,5 +15,10 @@
      digit will be equal to the last digit and the second digit will be equal to the second last digit. Thus, it is
      unnecessary to search through the entire range of 5 digit numbers. 
   
-  3) The last function/algorithm palinConstruct is the most efficient out of the three because instead of searching for all the 5 digit
-     palindromes in order to ultimately aggreate them, 
+  3) The last function/algorithm palinConstruct is the most efficient out of the three because instead of searching for all
+     the 5 digit palindromes in order to ultimately aggreate them, this algorithm actually constructs the set of all possible
+     5 digit palindromes and aggregates them. It does so by creating the list of all possible first 2 digits. The last 2
+     digits will be the reverse of the first 2 digits. The inner loop then loops through all possible middle digits and
+     constructs the palindrome. Lastly, it sums all of the palindrome values. 
+
+(*Note: Algorithm # 3 is very similar to Algorithm # 2 since both require a construction of the palindromes rather than a massive/brute search for them. Nonetheless, Algorithm # 3 is a more refined technique.)

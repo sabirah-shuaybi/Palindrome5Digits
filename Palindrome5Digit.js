@@ -1,3 +1,8 @@
+/* Palindrome5Digits is a program that contains 3 different ways to compute the sum of all possible 5 digit palindromes
+ * Author: Sabirah Shuaybi
+ * Date: 11/22/16
+ */
+
 /* Reverses a string */
 function reverse(s) {
   return s.split('').reverse().join('');

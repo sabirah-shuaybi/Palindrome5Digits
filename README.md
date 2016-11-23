@@ -10,6 +10,7 @@
      Using 5 nested loops, this function creates all possible 5 digit numbers. 
      Then, it searches for all the palindromes within the set off all 5 digit numbers and aggregates them. 
   
-  2) The second  funtion/algorithm OptimizedSearch() is more efficient than the first algorithm 
-     because it is based on the recognition that in a palindromic 5 digit number, the first digit will be equal 
-     to the last digit and the second digit will be equal to the second last digit. 
+  2) The second funtion/algorithm OptimizedSearch() is more efficient than the first algorithm (uses only 3
+     nested loops instead of 5). This technique is based on the recognition that in a palindromic 5 digit number, the first
+     digit will be equal to the last digit and the second digit will be equal to the second last digit. Thus, it is
+     unnecessary to search through the entire range of 5 digit numbers. 
